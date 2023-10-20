@@ -16,7 +16,7 @@ const dialogPage = () => {
     <>
       <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outlined">버튼</Button>
+        <Button variant="outlined" className="text-orange-500">버튼</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
