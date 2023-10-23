@@ -289,4 +289,5 @@ const ButtonPage = () => {
 		</div>
 	);
 };
+
 export default ButtonPage;

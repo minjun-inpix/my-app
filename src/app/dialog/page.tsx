@@ -11,7 +11,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-const dialogPage = () => {
+const DialogPage = () => {
   return (
     <>
       <Dialog>
@@ -56,4 +56,4 @@ const dialogPage = () => {
   );
 };
 
-export default dialogPage;
+export default DialogPage;
