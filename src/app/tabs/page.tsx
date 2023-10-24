@@ -65,8 +65,6 @@ const tabsPage = () => {
               </TableRow>
             </TableHeader>
             <TableBody>
-            {/* const array1 = [1, 4, 9, 16];
-                const map1 = array1.map((x) => x * 2); */}
               {invoices.map((invoice) => (
                 <TableRow key={invoice.invoice}>
                   <TableCell className="font-medium">
@@ -80,11 +78,6 @@ const tabsPage = () => {
                 </TableRow>
               ))}
             </TableBody>
-
-            <TableBody>
-              {invoices.map(() => ())}
-            </TableBody>
-
           </Table>
         </TabsContent>
         <TabsContent value="password">
@@ -100,7 +93,7 @@ const tabsPage = () => {
         <SheetHeader>
           <SheetTitle>Edit profile</SheetTitle>
           <SheetDescription>
-            Make changes to your profile here. Click save when you're done.
+            Make changes to your profile here. Click save when you are done.
           </SheetDescription>
         </SheetHeader>
         <div className="grid gap-4 py-4">
