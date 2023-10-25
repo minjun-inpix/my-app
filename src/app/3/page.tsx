@@ -1,5 +1,5 @@
-const onePage = () => {
-  return <>3</>;
-};
+// const onePage = () => {
+//     return ();
+// };
 
-export default onePage;
+// export default onePage;
