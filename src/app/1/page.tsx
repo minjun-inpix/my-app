@@ -1,5 +1,9 @@
-// const onePage = () => {
-//     return ();
-// };
+const somePage = () => {
+    return(
 
-// export default onePage;
+
+        
+    );
+};
+
+export default somePage;
