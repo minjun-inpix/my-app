@@ -7,7 +7,7 @@ const Father = styled.div`
 `;
 
 const Box = styled.div`
-  background-color: ${(props) => props.bgColor};
+  background-color: ${(props) => props.color};
   width: 100px;
   height: 100px;
 `;
@@ -20,18 +20,11 @@ const formPage = () => {
   return (
     <>
       <Father>
-        <Box bgColor="teal">Hello</Box>
-        <Circle bgColor="tomato" as="a">Hello</Circle>
+        <Box color="teal">Hello</Box>
+        <Circle color="tomato" as="a">Hello</Circle>
       </Father>
     </>
   );
 };
-
-
-const Overlay = () => {
-  return (
-    
-  )
-}
 
 export default formPage;
